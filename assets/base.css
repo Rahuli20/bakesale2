@@ -1,5 +1,11 @@
 /* Color custom properties */
 
+
+
+
+
+
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
@@ -223,9 +229,33 @@
 
 /* base */
 
+@font-face {
+  font-family: "Aleo";
+  font-style: bold;
+  src: url("aleo-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Aleo";
+  font-style: normal;
+  src: url("aleo-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Augustus";
+  font-style: normal;
+  src: url("Augustus-Black.woff2") format("woff2");
+}
+
+
 body {
   background-color: #fff5e6;
   color:#640003;
+  font-family: "Aleo", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Augustus", sans-serif;
 }
 
 .no-js:not(html) {

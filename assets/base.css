@@ -223,6 +223,11 @@
 
 /* base */
 
+body {
+  background-color: #fff5e6;
+  color:#640003;
+}
+
 .no-js:not(html) {
   display: none !important;
 }
